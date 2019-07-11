@@ -1,0 +1,426 @@
+@charset "utf-8";
+/* Colors:
+Light Green:
+#ccffcc
+
+Bright Green:
+#33cc66
+
+Dark Green:
+#336633
+
+
+
+ */
+
+body{
+	margin:0;
+	padding: 0;
+	background:url(../images/background.jpg) repeat;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#sitewrap{
+	width: 924px;
+	margin: 30px auto 0 auto;
+	background: #fff;
+	padding: 20px 20px 0px 20px;
+	box-shadow: 10px 0px 10px rgba(0, 0, 0, .25),-10px 0px 10px rgba(0, 0, 0, .25);
+
+}
+address{
+	font-style: normal;
+}
+h2{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif ;
+	color: #336633 ;
+}
+
+h3, h4, h5, h6{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif ;
+	color: #33cc66;
+}
+img{
+	border-radius: 10px;
+}
+a:hover{
+	font-weight: bold;
+}
+p#grandopen {
+	display: block;
+	width: 400px;
+	background: rgba(185,255,185,.75);
+	color: #363;
+	font-size: 30px;
+	line-height: 50px;
+	font-weight: bold;
+	padding: 0 10px ;
+	float: right;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+dt{
+	font-weight: bold;
+	margin-top: 10px;
+}
+#menupg article h3{
+	color:#336633;
+}
+#menupg h4{
+	font-size: 20px;
+}
+/* NAVIGATION */
+	#mainnav h2{
+		display:none;
+		}
+	#pull {
+		display:none;
+		}
+	nav{
+			margin: 0 auto;
+			padding: 0;
+			position: fixed;
+			width: 100%;
+			height: 50px;
+			top: 0px;
+			right: 0;
+			left:0;
+			z-index:100;
+			background:#ccffcc ;
+			box-shadow: 0px 5px 10px rgba(0, 0, 0, .5);
+		}
+		nav ul{
+			list-style: none;
+			text-align: center;
+			width: 964px;
+			margin: 0 auto;
+			padding: 0;
+		}
+		nav li{
+			float: left;
+			width: 25%;
+			display: block;
+			line-height: 50px;
+			font-size: 25px;
+			background: ;
+		}
+		nav li a{
+			text-decoration: none;
+			color: #336633;
+			display: block;
+			width: 100%;
+		}
+
+		nav li a:hover{
+			color: #33cc66;
+			font-weight: bold;
+		}
+
+		nav li a.current{
+			display: block;
+			width: 100%;
+			color: #ccffcc;
+			background: #336633;
+			line-height: 60px;
+			height: 60px;
+			border-bottom-left-radius: 10px;
+			border-bottom-right-radius: 10px;
+		}
+
+		header a{
+			text-decoration: none;
+			color: #336633;
+
+		}
+		h1{
+		background:url(../images/freshoasislogo.png) no-repeat;
+		padding-left: 200px;
+		height: 200px;
+		line-height: 200px;
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font-size: 50px;
+		float: left;
+		margin: 10px 10px 10px -10px;
+		}
+		header p#tag{
+		display: block;
+		float: right;
+		position: relative;
+		top: 120px;
+		color: #336633;
+		}
+		header #social{
+		float: right;
+		position: relative;
+		left: 50px;
+		top: 95px;
+	}
+
+	ul#social {
+		margin: 0 120px 0 0;
+		padding: 0;
+		float: right;
+
+	}
+	ul#social li {
+		list-style:none;
+		float:right;
+	}
+
+	ul#social a {
+		display:block;
+		width:50px;
+		height:50px;
+		border-radius: 5px;
+		text-indent:-999em;
+		background:url(../images/socialsprites.png) no-repeat 0px -50px;
+		margin-right:5px;
+	}
+	ul#social a:hover {
+		background:url(../images/socialsprites.png) no-repeat 0px 0px;
+	}
+	ul#social li:nth-child(2) a {
+		background:url(../images/socialsprites.png) no-repeat -50px -50px;
+	}
+	ul#social li:nth-child(2) a:hover {
+		background:url(../images/socialsprites.png) no-repeat -50px 0px;
+	}
+
+		 #banner{
+		background:url(../images/banner.jpg) no-repeat;
+		margin-left: -20px;
+		margin-top: 220px;
+		display: block;
+		width: 964px;
+		height: 300px;
+		}
+		#intro ul{
+		padding-top: 50px;
+		float: left;
+		}
+
+		#intro img{
+		float: right;
+		}
+
+
+		#buckets {
+		clear: both;
+		padding: 20px 0px;
+		}
+
+		#buckets h3{
+		color: #336633;
+	}
+
+	.buckets{
+		width: 260px;
+		float: left;
+		background: #ccffcc;
+		min-height: 225px;
+		padding: 10px 20px;
+		border-radius: 10px;
+		margin-bottom: 20px;
+	}
+
+
+
+	.buckets:nth-child(2){
+		margin: 0 12px;
+	}
+
+	.buckets a{
+		color: #336633;
+		display: block;
+		text-align: right;
+		width: 260px;
+		height: 30px;
+		text-decoration: none;
+	}
+	.buckets p {
+		display:block;
+		height: 120px;
+	}
+	.buckets ul {
+		display:block;
+		height: 110px;
+	}
+
+	.buckets a:hover{
+		text-decoration: none;
+	}
+
+	#articleandaside {
+	background: ;
+	width: 924px;
+	padding: 20px;
+	height: 275px;
+	}
+
+	article{
+		float: left;
+		width: 600px;
+		background: ;
+	}
+	article a{
+		clear: both;
+		color: #336633;
+		text-decoration: none;
+	}
+	article ul{
+		list-style: none;
+	}
+
+	aside{
+		float: right;
+		width: 	280px;
+		border-radius: 10px;
+		padding: 10px;
+		margin-bottom: 15px;
+		border: 3px #336633 groove;
+	}
+	aside h3{
+		color: #336633	;
+	}
+
+	#reservepg aside{
+	margin-top: 20px;
+	}
+	form{
+		width: 90%;
+		margin: 0 auto;
+	}
+	form fieldset{
+	margin-top: 10px;
+	border-radius: 10px;
+
+	}
+	form legend{
+		background: #ccffcc ;
+		border-radius: 10px;
+		color: #336633 ;
+		padding: 5px;
+	}
+	form li{
+		clear:both;
+		list-style-type:none;
+		margin: 10px auto;
+
+	}
+	form li label{
+		display:block;
+		float:left;
+		width:150px;
+	}
+	form li input{
+		width:200px;
+	}
+	.submit{
+		clear:both;
+		margin:10px auto;
+		width:410px;
+	}
+	.submit input{
+		width: 200px;
+	}
+
+	.button {
+		background: #ccffcc ;
+		border-radius: 10px;
+		color: #336633 ;
+		padding: 5px;
+	}
+
+	.button:hover{
+		color: #ccffcc;
+		background: #336633;
+	}
+
+	 form a{
+		text-decoration: none;
+		color: ;
+	}
+
+	form a:hover{
+		text-decoration: none;
+		color: ;
+	}
+
+	span{
+	 color:#900;
+	}
+	.error{}
+
+
+	ul.hours {
+		list-style: none;
+		font-weight: bold;
+		margin-left: -40px;
+	}
+
+
+	footer {
+	clear: both;
+	background: #ccffcc;
+	overflow: hidden;
+	width: 924px;
+	margin-left: -20px;
+	padding: 20px;
+	}
+
+	footer hr{
+		clear:both;
+		width: 924px;
+	}
+	#reachus{
+		width: 400px;
+		float: left;
+	}
+
+	#affiliates{
+
+		float: right;
+	}
+
+	#affiliates ul{
+		list-style: none;
+		margin-left: -30px;
+	}
+	#affiliates a{
+		color: #000;
+		text-decoration: none;
+	}
+	#affiliates a:hover{
+		color: #336633;
+		font-weight: bold;
+	}
+
+	#breadcrumb{
+		float: left;
+		width: 500px;
+
+	}
+	#breadcrumb ul{
+		float: left;
+		display: block;
+		list-style: none;
+		margin-left: -40px;
+	}
+	#breadcrumb li{
+		float: left;
+		display: block;
+	}
+	#breadcrumb a{
+		color: #336633;
+		padding: 0 5px;
+		text-decoration: none;
+	}
+	#breadcrumb a:hover{
+		text-decoration: none;
+	}
+
+	footer cite{
+		display: inline-block;
+		float: right;
+		padding-top: 30px;
+		margin-right: 10px;
+	}
