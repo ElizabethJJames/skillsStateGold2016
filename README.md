@@ -1,5 +1,5 @@
 # skillsStateGold2016
-Skills regional contest 1st place website from 2016
+Skills State contest 1st place website from 2016
 
 Created by Elizabeth Witter and Bethany Connor
 
