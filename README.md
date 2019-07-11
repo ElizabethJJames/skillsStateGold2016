@@ -3,7 +3,7 @@ Skills State contest 1st place website from 2016
 
 Created by Elizabeth Witter and Bethany Connor
 
-Access Webpage: https://elizabethjjames.github.io/skillsStateGold2016/stateWebsite/Index.html
+Access Webpage: https://elizabethjjames.github.io/skillsStateGold2016/stateWebsite/index.html
 
 Contest Rules
 1.	 The contest requires a team of two students. 
